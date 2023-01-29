@@ -236,6 +236,11 @@ aside ul{
         top: 13em;
     }
 
+    .instagram .icon, .twitter .icon, .github .icon {
+        display:inline;
+        font-size: 1.5rem;
+    }
+
 }
 
 

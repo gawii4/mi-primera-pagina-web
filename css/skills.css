@@ -1,0 +1,94 @@
+body{
+    background-image: url(/img/skills2.webp);
+    background-size: cover;
+}
+
+.main-skills{
+    display: flex;
+    justify-content: center;
+}
+
+.knowledge{
+    position: relative;
+    top: 10em;
+    background-color: rgba(2, 4, 1, 0.25);
+    border-radius: 30px;
+    backdrop-filter: blur(2px);
+    color: #FFF;
+}
+
+.knowledg-point{
+text-align: center;
+padding: 10px;
+list-style-type: none;
+color: #7FB77E;
+}
+
+.knowledge h1, .knowledge h2{
+    padding: 10px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2rem;
+    color: #FAAB78;
+}
+
+.knowledge .icon{
+    color: #ECD461;
+}
+.knowledge .icon:hover{
+    color: #F39F18;
+}
+
+
+@media screen and (min-width:1200px) {
+    body{
+        background-image: url(/img/skills.webp);
+        background-size: cover;
+    }
+    .knowledge{
+        position: relative;
+        right: 20em;
+        top: 5em;
+    }
+
+.knowledge h1, .knowledge h2{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.knowledg-point{
+    font-size: 1rem;
+    font-weight: bold;
+}
+  
+}
+
+
+
+@media screen and (min-width:1400px) {
+    body{
+        background-image: url(/img/skills.webp);
+        background-size: cover;
+       }
+
+        .knowledge{
+            position: relative;
+            right: 25em;
+            top: 7.5em;
+        }
+
+    .knowledge h1, .knowledge h2{
+        font-weight: bold;
+        font-size: 2.2rem;
+    }
+
+    .knowledg-point{
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    
+    
+}
+
+
+

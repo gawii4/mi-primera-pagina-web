@@ -13,7 +13,6 @@ body{
     background-image: url(/img/home2.webp);
     background-size: cover;
     min-height: 100vh;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }

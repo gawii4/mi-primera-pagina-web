@@ -4,52 +4,115 @@ body{
 }
 
 .main-skills{
-    display: flex;
     justify-content: center;
 }
 
-.knowledge{
+.nose{
+    height: 70vh;
+    
+}
+
+
+.knowledge{ 
     position: relative;
-    top: 10em;
+    margin-right: auto;
+    margin-left: auto;
+    top: 4.1em;   
+    background: #7FB77E;
+    width: 100%;
+    font-size: 1.3rem;
     background-color: rgba(2, 4, 1, 0.25);
     border-radius: 30px;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(0.1px);
     color: #FFF;
 }
 
-.knowledg-point{
+
+
+.knowledge2{
+    
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 3em;
+    background-color: rgba(2, 4, 1, 0.25);
+    border-radius: 30px;
+    backdrop-filter: blur(0.1px);
+    color: #FFF;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.knowledg-point, .knowledg-title{
 text-align: center;
 padding: 10px;
 list-style-type: none;
-color: #7FB77E;
+color: #87e385;
 }
 
-.knowledge h1, .knowledge h2{
+.knowledg-title{
+    text-decoration: underline;
+    font-size: 1.6rem;
+    color: yellow;
+}
+
+
+
+
+.knowledg-point1{
+    text-align: center;
     padding: 10px;
+    color: pink;
+    list-style-type: none;
+}
+
+.knowledge h1, .knowledge2 h2{
+    padding: 15px;
     text-decoration: underline;
     text-align: center;
     font-size: 2rem;
     color: #FAAB78;
 }
 
-.knowledge .icon{
+.knowledge,  .icon{
     color: #ECD461;
 }
 .knowledge .icon:hover{
     color: #F39F18;
 }
+.knowledge2,  .icon{
+    color: #ECD461;
+}
+.knowledge2 .icon:hover{
+    color: #F39F18;
+}
+
 
 
 @media screen and (min-width:1200px) {
-    body{
-        background-image: url(/img/skills.webp);
-        background-size: cover;
-    }
-    .knowledge{
-        position: relative;
-        right: 20em;
-        top: 5em;
-    }
+    
+body{
+    background-image: url(/img/skills.webp);
+    background-size: cover;
+}
+
+.nose{
+    height: 45.4vh;
+}
+
+.knowledge{
+    right: 20em;        
+    top: 5em;
+    width: 30%;
+    backdrop-filter: blur(3px); 
+}
+
+.knowledge2{ 
+    left: 20em;        
+    top: -9em; 
+    width: 30%;
+    backdrop-filter: blur(3px); 
+}
 
 .knowledge h1, .knowledge h2{
     font-weight: bold;
@@ -57,7 +120,7 @@ color: #7FB77E;
 }
 
 .knowledg-point{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
   
@@ -71,11 +134,23 @@ color: #7FB77E;
         background-size: cover;
        }
 
+       .nose{
+        width: 100%;
+        height: 46.8vh;
+       }
+
         .knowledge{
-            position: relative;
-            right: 25em;
-            top: 7.5em;
+            right: 28em;
+            top: 12em;
+            backdrop-filter: blur(3px); 
         }
+
+        .knowledge2{
+            backdrop-filter: blur(3px); 
+            left: 30em;
+            bottom: 15em;
+        }
+
 
     .knowledge h1, .knowledge h2{
         font-weight: bold;

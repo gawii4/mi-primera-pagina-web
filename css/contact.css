@@ -8,14 +8,18 @@ body{
     justify-content: center; 
 }
 
+.nose{
+    height: 100vh;
+}
+
 .me-contact{
     position: relative;
-    top: 9em;
+    top: 6em;
 }
 
 .you-contact{
     position: relative;
-    top: 10em;
+    top: 5em;
 }
 
 .me-contact li{
@@ -26,7 +30,7 @@ body{
 .me-contact, .you-contact{
     background-color: rgba(2, 4, 1, 0.25);
     border-radius: 35px;
-    backdrop-filter: blur(4.5px);
+    backdrop-filter: blur(0.1px);
     text-align: center;  
     
 }
@@ -38,7 +42,7 @@ body{
     font-weight: bold;
     margin:0;
     padding: 8px;
-    color: #FF87B2;
+    color: #8F43EE;
 }
 .you-contact h2{
     color: #C147E9;
@@ -50,7 +54,7 @@ body{
 
 .cont{
     font-size: 1.2rem;
-    color: #7FB77E;
+    color: #FC2947;
     font-weight: bold;
 }
 
@@ -108,34 +112,34 @@ body{
 }
 
 @media screen and (min-width:1200px) {
-    body{
-        background-image: url(/img/contact.webp);
-        background-size: cover;
+        body{
+         background-image: url(/img/contact.webp);
+         background-size: cover;
        }
+    
+        .nose{
+         height: 90.8vh;
+      }
 
-       .you-contact label{
-        display: flex;
-        flex-direction: column;
-       }
-
-       .me-contact h1, .you-contact h2{
+        .me-contact h1, .you-contact h2{
         font-size: 1.4rem;
-       }
+      }
 
-       .me-contact{
-        position: relative;
-        right: 20em;
-        top: 20em;
+       .me-contact{  
+        top: -8em;
+        left: 25em;
        }
 
        .you-contact{
-        position: relative;
-        left: 28em;
-        top: -1em;
+        right: 25em;
+        top: 8em;
        }
 
        .you-contact label{
         padding: 0;
+       }
+       .me-contact, .you-contact{
+        backdrop-filter: blur(3px);
        }
 }
 
@@ -143,6 +147,10 @@ body{
     body{
         background-image: url(/img/contact.webp);
         background-size: cover;
+       }
+
+       .nose{
+        height: 93.7vh;
        }
 
        .you-contact label{
@@ -159,15 +167,12 @@ body{
        }
 
        .me-contact{
-        position: relative;
-        right: 30em;
-        top: 28em;
+        top: -16em;
+        left: 35em;
        }
 
        .you-contact{
-        position: relative;
-        left: 40em;
-        top: 1em;
+        right: 30em;
        }
 
       
@@ -176,4 +181,7 @@ body{
         padding: 10px;
        }
 
+       .me-contact, .you-contact{
+        backdrop-filter: blur(3px);
+       }
     }
